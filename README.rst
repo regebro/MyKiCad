@@ -7,7 +7,7 @@ The things of general interest in the symbol library could be:
 * Don Audio RM8 series multi tap transformer
 
 
-The other stuff is rather specific, I might clean up with rotary switch symbols later.
+The other stuff is rather specific, I might clean up the rotary switch symbols later.
 
 
 Footprints include:
