@@ -10,11 +10,13 @@ The things of general interest in the symbol library could be:
 The other stuff is rather specific, I might clean up the rotary switch symbols later.
 
 
-Footprints include:
+Footprints are based on spec sheets so far:
 
-* Don Audio RM8 series multi tap transformer
-* LORLIN CK series of rotary switches
-* NKK M2T22 DP3T switch
+* LORLIN CK series of rotary switches (untested IRL)
+* NKK M2T22 DP3T switch (untested IRL)
+* NKK D2 series of switches (untested IRL)
 
 The KCZ 4 to 11  throw multi level rotary switch is based on highly unreliable
 online schematics, don't use it yet.
+The Don Audio RM8 series multi tap transformer is even more tentative, and
+I'm just using it as a placeholder ATM.
