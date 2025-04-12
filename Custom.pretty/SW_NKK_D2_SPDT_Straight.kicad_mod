@@ -210,4 +210,15 @@
 		(uuid "6fa68dcd-d0ca-446b-a4df-592c9c6d9914")
 	)
 	(embedded_fonts no)
+	(model "/home/lregebro/Documents/Electronics/Libraries/3DModels/D22012LP.stp"
+		(offset
+			(xyz 0 0 13)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

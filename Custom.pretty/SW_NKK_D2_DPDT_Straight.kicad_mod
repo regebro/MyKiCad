@@ -234,4 +234,15 @@
 		(uuid "c2908db9-0da0-49ff-b28a-2ff502cb7677")
 	)
 	(embedded_fonts no)
+	(model "/home/lregebro/Documents/Electronics/Libraries/3DModels/D22022P.stp"
+		(offset
+			(xyz 0 0 13)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )
