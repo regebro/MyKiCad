@@ -15,6 +15,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -109,7 +110,7 @@
 					(type none)
 				)
 			)
-			(text "0mH"
+			(text "27mH"
 				(at -2.794 0 900)
 				(effects
 					(font
@@ -120,25 +121,7 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "1"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,86 +136,10 @@
 					)
 				)
 			)
-		)
-		(symbol "Don_Audio_RM8_2_1"
-			(arc
-				(start 0.0027 2.54)
-				(mid 0.635 1.905)
-				(end 0.0027 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.0027 1.27)
-				(mid 0.635 0.635)
-				(end 0.0027 0)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.0027 0)
-				(mid 0.635 -0.635)
-				(end 0.0027 -1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.0027 -1.27)
-				(mid 0.635 -1.905)
-				(end 0.0027 -2.54)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "27mH"
-				(at -2.794 0 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "2"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -248,7 +155,7 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_3_1"
+		(symbol "Don_Audio_RM8_2_1"
 			(arc
 				(start 0.0027 2.54)
 				(mid 0.635 1.905)
@@ -308,14 +215,14 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -326,7 +233,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "3"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -342,7 +249,7 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_4_1"
+		(symbol "Don_Audio_RM8_3_1"
 			(arc
 				(start 0.0027 2.54)
 				(mid 0.635 1.905)
@@ -391,7 +298,7 @@
 					(type none)
 				)
 			)
-			(text "47mH"
+			(text "48mH"
 				(at -2.794 0 900)
 				(effects
 					(font
@@ -402,14 +309,14 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -420,7 +327,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "4"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -436,7 +343,7 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_5_1"
+		(symbol "Don_Audio_RM8_4_1"
 			(arc
 				(start 0.0027 2.54)
 				(mid 0.635 1.905)
@@ -496,14 +403,14 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -514,7 +421,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "5"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -530,7 +437,7 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_6_1"
+		(symbol "Don_Audio_RM8_5_1"
 			(arc
 				(start 0.0027 2.54)
 				(mid 0.635 1.905)
@@ -590,14 +497,14 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -608,7 +515,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "6"
+				(name "E"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,7 +531,7 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_7_1"
+		(symbol "Don_Audio_RM8_6_1"
 			(arc
 				(start 0.0027 2.54)
 				(mid 0.635 1.905)
@@ -674,7 +581,7 @@
 				)
 			)
 			(text "150mH"
-				(at -3.048 0 900)
+				(at -2.794 0 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -684,14 +591,14 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "8"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -702,7 +609,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "7"
+				(name "F"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -718,11 +625,29 @@
 				)
 			)
 		)
-		(symbol "Don_Audio_RM8_8_1"
+		(symbol "Don_Audio_RM8_7_1"
 			(pin no_connect line
 				(at -5.08 6.35 270)
 				(length 2.54)
-				(name "9"
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 6.35 270)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -737,10 +662,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 6.35 270)
+			(pin power_in line
+				(at 0 6.35 270)
 				(length 2.54)
-				(name "10"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -755,17 +680,81 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 0 6.35 270)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Magnic"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Magnic"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Magnic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Magnic_0_1"
+			(rectangle
+				(start -8.255 6.35)
+				(end 7.62 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Magnic_1_1"
+			(pin input line
+				(at -10.795 3.81 0)
 				(length 2.54)
-				(name "11"
+				(name "IN_A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -773,17 +762,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 2.54 6.35 270)
+			(pin input line
+				(at -10.795 -3.81 0)
 				(length 2.54)
-				(name "12"
+				(name "IN_B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -791,17 +780,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 6.35 270)
+			(pin output line
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "13"
+				(name "OUT_A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -809,17 +798,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 6.35 270)
+			(pin output line
+				(at 10.16 -3.81 180)
 				(length 2.54)
-				(name "14"
+				(name "OUT_B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

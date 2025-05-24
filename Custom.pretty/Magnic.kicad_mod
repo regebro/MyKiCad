@@ -1,0 +1,135 @@
+(footprint "Magnic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -17.145 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "00261f7b-3593-4f2f-8e6b-c99d1a723ae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Magnic"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7230404-c96d-45de-a7f4-89750c84c954")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31329959-30f0-4ce7-a9b5-68fd67f48e5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f334b2f-d238-41be-a5a5-ce580cbfe6b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -20.5 -15.5)
+		(end 20.5 15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3b2f6c74-57f1-466b-b1be-91193a63658e")
+	)
+	(fp_rect
+		(start -20.955 -15.875)
+		(end 20.955 15.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8260618b-4a8a-4d07-ad51-bd6005a06383")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ad0cf30-1c07-4d3c-a81f-2cecb7e3cfcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -17.92 -11.52 90)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17f546f5-33d0-440a-b481-b1fd836fd69e")
+	)
+	(pad "2" thru_hole circle
+		(at -17.92 11.52 90)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2f64bbe-9c7b-4f1c-844a-54e1b53a2b5a")
+	)
+	(pad "3" thru_hole circle
+		(at 17.92 -11.52 90)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72c440e3-8c65-4218-93eb-9e26d8b6fdcd")
+	)
+	(pad "4" thru_hole circle
+		(at 17.92 11.52 90)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5e313df-fe21-4890-be02-f69af4152837")
+	)
+	(embedded_fonts no)
+	(model "${MYLIB}/Magnic/Magnic.stp"
+		(offset
+			(xyz 6.5 -7.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
